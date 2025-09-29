@@ -26,7 +26,7 @@ object camion {
         return self.pesoTotal() > 2500
     }
     method puedeCirculorEnRuta(unaPeligrosidad) {
-        return self.estaExedidoDePeso() and not 
+        return self.estaExedidoDePeso() and not //comentario de prueba
     }
 
 
